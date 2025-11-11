@@ -52,7 +52,8 @@ public class Player extends Character {
 				 String n = inventory[i].getName();
 				 if(n != null) {
 					 String s = n.toLowerCase();	
-					 if(s.contains("magic") || s.contains("magical")) {
+					 if(s.contains("magic") || s.contains("magical") ||
+							 s.contains("wand") || s.contains("charm")) {
 						 return true;
 					 }
 				 }
