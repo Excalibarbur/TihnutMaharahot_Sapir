@@ -55,26 +55,33 @@ public static void main(String[] args) {
 	
 	int totalValueP3 = players[2].calculateInventory();
 	System.out.println(players[2].getName() + " - " + totalValueP1 );
+
+	System.out.println("====================================");
+
 	
+	//Battle simulation
+	System.out.println("Starting simulation .... ");
+	System.out.println("Get ready  for the next battle !");
+	battleSim(players[1], troll);
 	
 
 
 	}
 
 
-// Battle simulation 
+// Battle simulation function - adds 1 level to winner
 public static void battleSim (Player player , Enemy enemy) {
 	System.out.println(player.getName() + " - level -  " + player.getLevel() + 
 						"VS . " + enemy.getName() + " - level - ");
 	
 	//Player wins scenario ( 1 level up )
 	if(player.getLevel() > enemy.getLevel() ) {
-		System.out.println(player.getName() + " Wins!!!");
+		System.out.println(player.getName() + " Wins!!!" + "\n " + " finish him !");
 		player.setLevel(player.getLevel() + 1);
 		
 		//enemy wins scenario ( 1 level up )
 	} else if (player.getLevel() < enemy.getLevel()) {
-		 System.out.println(enemy.getName() + " Wins!!!");
+		 System.out.println(enemy.getName() + " Wins!!!" + "\n " + " finish him !");
 		 enemy.setLevel(enemy.getLevel() + 1);
 	
 	} else {
