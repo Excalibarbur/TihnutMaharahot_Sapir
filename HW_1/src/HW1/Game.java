@@ -67,10 +67,12 @@ public static void battleSim (Player player , Enemy enemy) {
 	System.out.println(player.getName() + " - level -  " + player.getLevel() + 
 						"VS . " + enemy.getName() + " - level - ");
 	
+	//Player wins scenario ( 1 level up )
 	if(player.getLevel() > enemy.getLevel() ) {
 		System.out.println(player.getName() + " Wins!!!");
 		player.setLevel(player.getLevel() + 1);
 		
+		//enemy wins scenario ( 1 level up )
 	} else if (player.getLevel() < enemy.getLevel()) {
 		 System.out.println(enemy.getName() + " Wins!!!");
 		 enemy.setLevel(enemy.getLevel() + 1);

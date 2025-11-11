@@ -79,7 +79,7 @@ public class Player extends Character {
 	}
 	
 	//set name
-	public void setName() {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
@@ -89,7 +89,7 @@ public class Player extends Character {
 	}
 	
 	//set level
-	public void setLevel() {
+	public void setLevel(int level) {
 		this.level = level;
 	}
 	
