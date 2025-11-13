@@ -3,12 +3,12 @@ package HW1;
 
 public class Character
 {
-	private String name = "Unknown";
-	private int health = 0;
-	private int level = 0;
+	protected String name = "Unknown";
+	protected int health = 0;
+	protected int level = 0;
 	
-	private static final int MAX_HEALTH = 10;
-	private static final int MAX_LEVEL = 5;
+	public static final int MAX_HEALTH = 10;
+	public static final int MAX_LEVEL = 5;
 	
 	
 	public Character()
