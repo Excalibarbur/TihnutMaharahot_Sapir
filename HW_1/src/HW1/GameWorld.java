@@ -63,7 +63,7 @@ public class GameWorld
 			//checks if array has players before printing
 			if(players[i] != null) 
 			{
-				System.out.println("Player #" + (i + 1) + players[i].toString());
+				System.out.println("Player #" + (i + 1) + " -> " + players[i].toString());
 				System.out.println();
 			}
 		}

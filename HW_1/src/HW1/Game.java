@@ -63,7 +63,7 @@ public class Game
 		int totalValueP3 = players[2].calculateInventory();
 		System.out.println(players[2].getName() + " - " + totalValueP1 );
 	
-		System.out.println("====================================");
+		System.out.println("\n====================================");
 		
 		//Battle simulation
 		System.out.println("Starting simulation .... ");
@@ -75,8 +75,8 @@ public class Game
 	// Battle simulation function - adds 1 level to winner
 	public static void battleSim (Player player, Enemy enemy)
 	{
-		System.out.println(player.getName() + " - level -  " + player.getLevel() + 
-							"VS . " + enemy.getName() + " - level - ");
+		System.out.println(player.getName() + " - level - " + player.getLevel() + 
+							" VS. " + enemy.getName() + " - level - " + enemy.getLevel());
 		
 		//Player wins scenario ( 1 level up )
 		if(player.getLevel() > enemy.getLevel())

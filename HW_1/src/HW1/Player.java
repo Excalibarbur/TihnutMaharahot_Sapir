@@ -78,7 +78,7 @@ public class Player extends Character
 		StringBuilder sb = new StringBuilder();
 		for(int i = 0; i < inventory.length; i++)
 		{
-			if(inventory[i] == null)
+			if(inventory[i] != null) // היה ==
 			{
 				if(sb.length() > 0) sb.append("|"); //parts each item with "|"
 				sb.append(inventory[i].getName());
