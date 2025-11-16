@@ -1,3 +1,6 @@
+//Roi Atia - 211633003
+//Bar Afuta - 
+
 package HW1;
 
 public class Player extends Character
