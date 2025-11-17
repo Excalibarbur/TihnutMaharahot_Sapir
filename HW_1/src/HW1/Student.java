@@ -1,5 +1,4 @@
-//Roi Atia - 211633003
-//Bar Afuta - 
+
 package Files;
 
 public class Student {
