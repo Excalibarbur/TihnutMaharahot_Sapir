@@ -1,5 +1,3 @@
-//Roi Atia - 211633003
-//Bar Afuta - 
 
 package Files;
 import java.util.Scanner;
