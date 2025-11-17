@@ -1,7 +1,6 @@
 //Roi Atia - 211633003
 //Bar Afuta - 
 package HW1;
-//package assignment1;
 
 public class Enemy extends Character
 {

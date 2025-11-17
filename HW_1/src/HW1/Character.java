@@ -2,7 +2,6 @@
 //Bar Afuta - 
 
 package HW1;
-//package assignment1;
 
 public class Character
 {
